@@ -1,6 +1,6 @@
 # Frontend de Gestión de Inventario
 
-Este proyecto es una aplicación frontend para gestionar datos de inventario de equipos almacenados en un archivo Excel. Proporciona una interfaz amigable para visualizar, buscar, agregar, editar y eliminar elementos del inventario, comunicándose con un backend Node.js que lee y escribe en el archivo Excel.
+Este proyecto es una aplicación frontend para gestionar datos de inventario de equipos almacenados en un archivo Excel. Proporciona una interfaz amigable para visualizar, buscar, agregar, editar y eliminar elementos del inventario, comunicándose con un backend Node.js que lee y escribe en el archivo Excel. Esta hecho con simple html, css y javascript que lee y escribe datos de una hoja xlsx.
 
 ## Funcionalidades
 
