@@ -1,13 +1,13 @@
 # Frontend de Gestión de Inventario
 
-Este proyecto es una aplicación frontend para gestionar datos de inventario almacenados en un archivo Excel. Proporciona una interfaz amigable para visualizar, buscar, agregar, editar y eliminar elementos del inventario, comunicándose con un backend Node.js que lee y escribe en el archivo Excel.
+Este proyecto es una aplicación frontend para gestionar datos de inventario de equipos almacenados en un archivo Excel. Proporciona una interfaz amigable para visualizar, buscar, agregar, editar y eliminar elementos del inventario, comunicándose con un backend Node.js que lee y escribe en el archivo Excel.
 
 ## Funcionalidades
 
 - **Visualización de Inventario:** Muestra todos los elementos del inventario en una tabla responsiva.
 - **Búsqueda/Filtrado:** Permite buscar elementos ingresando texto en la caja de búsqueda. La tabla mostrará solo las filas donde alguna celda coincida exactamente con el texto buscado (no distingue mayúsculas/minúsculas).
 - **Agregar Nuevo Elemento:** Haz clic en el botón "Añadir" para abrir un formulario y agregar un nuevo elemento al inventario. El nuevo elemento se guarda directamente en el archivo Excel.
-- **Editar Elemento:** Haz clic en "Editar" en cualquier fila para habilitar la edición en línea. Haz clic en "Guardar" para guardar los cambios, que se escriben en el archivo Excel.
+- **Editar Elemento:** Haz clic en "Editar" en cualquier fila para habilitar la edición de la línea. Haz clic en "Guardar" para guardar los cambios, que se escriben en el archivo Excel.
 - **Eliminar Elemento:** Haz clic en "Borrar" para eliminar un elemento del inventario y del archivo Excel.
 - **Navegación:** Botón "Volver" en el formulario de alta para regresar a la tabla principal.
 - **Diseño Responsivo:** La tabla y los formularios están diseñados para adaptarse a diferentes tamaños de pantalla.
