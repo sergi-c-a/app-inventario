@@ -37,6 +37,7 @@ frontend
    Asegúrate de tener Node.js instalado. Luego ejecuta:
    ```
    npm install
+   npm install xlsx (modulo para que Node pueda leer y escribir en archivos Excel)
    ```
 
 3. **Ejecuta el backend** (desde la carpeta raíz del proyecto, no desde frontend):
