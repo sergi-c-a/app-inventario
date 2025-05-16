@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventario de Equipos</h1>
+        <div style="display: flex; gap: 8px; margin-bottom: 16px; align-items: center;">
+            <input type="text" id="search-box" placeholder="Buscar..." style="flex:1; padding: 8px; font-size: 16px;">
+            <button id="search-btn" class="add-btn" style="width: 120px;">Buscar</button>
+        </div>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Estado</th>
+                    <th>Nombre</th>
+                    <th>Fabricante</th>
+                    <th>Tipo</th>
+                    <th>Rol</th>
+                    <th>IP</th>
+                    <th>Subnet</th>
+                    <th>Gateway</th>
+                    <th>Mac</th>
+                    <th>PROFINET</th>
+                    <th>Firmware</th>
+                    <th>Serial</th>
+                    <th>Localización</th>
+                    <th>Responsable</th>
+                    <th>Planta</th>
+                    <th>Lugar</th>
+                    <th>Acciones</th> <!-- Add this line -->
+                </tr>
+            </thead>
+            <tbody id="inventory-table-body">
+                <!-- Data will be populated here by app.js -->
+            </tbody>
+        </table>
+        <button id="add-btn" class="add-btn" onclick="window.location.href='add.html'">Añadir</button>
+    </div>
+    <script src="../src/app.js"></script>
+</body>
+</html>
