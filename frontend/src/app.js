@@ -124,4 +124,9 @@ document.addEventListener('DOMContentLoaded', () => {
         );
         renderTable(filtered);
     });
+
+    document.getElementById('load-all-btn').addEventListener('click', () => {
+        document.getElementById('search-box').value = '';
+        renderTable(allData);
+    });
 });
