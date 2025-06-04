@@ -47,7 +47,7 @@ frontend
    El backend debe estar en funcionamiento para que el frontend pueda obtener y actualizar los datos.
 
 4. **Abre el frontend**:
-   Abre `public/index.html` en tu navegador, o utiliza un servidor local (como Live Server en VS Code) para mejores resultados.
+   Abre `/frontend/public/index.html` en tu navegador, o utiliza un servidor local (como Live Server en VS Code) para mejores resultados.
 
 ## Uso
 
